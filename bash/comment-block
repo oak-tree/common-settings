@@ -1,0 +1,8 @@
+
+echo before comment
+: <<'END'
+
+the code to comment llll...... this block wont do anything..
+
+END
+echo after comment
