@@ -1,0 +1,12 @@
+put 
+
+
+au FileType xml exe ":silent 1,$!xmllint --format --recover - 2>/dev/null"v
+
+in vimrc
+
+and use 
+gg=G
+
+source:
+http://vim.wikia.com/wiki/Format_your_xml_document_using_xmllint
